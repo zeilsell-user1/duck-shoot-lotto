@@ -1,0 +1,4 @@
+node_modules
+dist
+src/__mocks__
+jest.config.js

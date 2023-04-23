@@ -1,0 +1,7 @@
+# Ignore artifacts:
+src/__mocks__
+dist
+node_modules
+
+# Ignore all HTML files:
+*.html
