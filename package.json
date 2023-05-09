@@ -1,7 +1,7 @@
 {
   "name": "@zeilsell-user1/duck-shoot-lotto",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "This is a game that selects six numbers based off shooting ducks. To be used in an react app",
   "author": "Richard George <richard.john.george.3@gmail.com>",
   "license": "MIT",
