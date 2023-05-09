@@ -32,6 +32,7 @@
   "devDependencies": {
     "@ladle/react": "^2.4.5",
     "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-image": "^3.0.2",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.5",

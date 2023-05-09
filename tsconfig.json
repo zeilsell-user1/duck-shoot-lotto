@@ -20,8 +20,17 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "allowJs": true
   },
-  "include": ["src/**/*.ts*"],
-  "exclude": ["node_modules", "dist"]
+  "types": [
+    "node"
+  ],
+  "include": [
+    "src/**/*.ts*"
+  ],
+  "exclude": [
+    "node_modules", 
+    "dist"
+  ]
 }

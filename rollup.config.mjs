@@ -6,6 +6,7 @@ import banner2 from "rollup-plugin-banner2";
 import dts from "rollup-plugin-dts";
 import postcss from "rollup-plugin-postcss";
 import cleaner from "rollup-plugin-cleaner";
+import image from "@rollup/plugin-image";
 import autoprefixer from "autoprefixer";
 
 import packageJson from "./package.json" assert { type: "json" };
@@ -21,6 +22,7 @@ export default [
       },
     ],
     plugins: [
+      image(),
       cleaner({ targets: ["./dist/"] }),
       peerDepsExternal(),
       postcss({

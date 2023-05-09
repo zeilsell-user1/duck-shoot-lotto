@@ -1,3 +1,6 @@
+
+import "@testing-library/jest-dom/extend-expect";
+
 import { DuckShootLotto } from "../duck-shoot-lotto";
 
 describe("DuckShootLotto game component", () => {
